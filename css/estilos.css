@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding: 0;}
+.body{
+  background-image: url("fondo.jpg.jpg");
+  background-size: cover;
+
+}
+.contenedora{
+    width: 80%;
+    margin: 0 auto;
+    background-color:  rgb(110, 110, 110);
+    border:rgb(63, 63, 63) 5px solid;
+    color: white;
+}
+.fotoppal{
+    width: 80%;
+    margin: 0 auto;
+}
+.fotoppal img{
+    width: 100%;
+}
+.titulo{
+    margin: 3%;
+}
+.titulo h2{
+    font-size: 60px;
+    font-family:  'Julius Sans One', sans-serif;
+}
+.titulo h3{
+    font-size: 40px;
+    margin-left: 40%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.tituloimg{
+    background-color: rgb(176, 200, 214) ;
+  
+}
+.tituloimg h1{
+    font-size: 110px;
+    margin-left: 20%;
+    font-family: 'Shadows Into Light', cursive;
+    color:rgb(32, 32, 32);
+}
+.info{
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 12%;
+    margin-top: 2%;
+    color:rgb(32, 32, 32);
+    width: 100%;
+}
+.info p{
+    padding-right: 18%;
+    font-size: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 4%;
+}
+.formulario{
+    width: 45%;
+    margin: 2%;
+    margin-left: 3%;
+    padding: 2%;
+    margin-top: 5%;
+    border:#FAE659 5px solid;
+    background-color:rgb(149, 199, 228) ;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.formulario div{
+    padding-top: 3% ;
+}
+.formulario input{
+    width: 87%;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-radius: 2px;
+    border:none;
+    padding: 7px;
+}
+.formulario span{
+    margin-left: 3%;
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+.fotocirculo{
+    width: 35%;
+    
+}
+.fotocirculo img{
+    border-radius: 50%;
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 30%;
+    
+}
+.envi{
+    width: 30%;
+    margin-left: 35%;
+}
+.enviar:hover{
+	color:black;
+	background-color:#FAE659;
+}
+
+.formyfoto{
+    display: flex;
+    flex-flow: wrap;
+   
+}
+.redessociales{
+    display: flex;
+    width: 2%;
+    margin-left: 37%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+
+
+}
+.redessociales img{
+    width: 40%;
+    padding-right: 100px;
+    
+    
+}
+.footer{
+    color: black;
+    background-color: rgb(176, 200, 214) ;
+    height: 100px;
+    text-align: center;
+
+    
+}
+.footer p{
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+@media(max-width: 768px){
+    .tituloimg h1{
+        font-size: 90px;
+       margin-left: 10%;
+    }
+    .titulo h3{
+        font-size: 40px;
+        margin-left: 60%;
+    }
+    .fotoppal{
+        width: 100%;
+        margin-left: 0%;
+       
+    }
+    .fotoppal img{
+        width: 100%;
+    }
+    .info{
+        display: flex;
+        flex-flow: wrap;
+        margin-left: 12%;
+        margin-top: 2%;
+        color:rgb(32, 32, 32);
+        width: 100%;
+    }
+    .info p{
+        padding-right: 10%;
+        font-size: 25px;
+        font-family: 'Julius Sans One', sans-serif;
+        margin-bottom: 4%;
+    }  
+    .formyfoto{
+        display: block;
+    }  
+    .formulario{
+        width: 70%;
+        margin-left: 12%;
+    }
+    .fotocirculo{
+        width: 60%;
+       
+    }
+    .fotocirculo img{
+        width: 100%;
+        margin-left: 32%;
+    }
+    .redessociales{
+        display: flex;
+        width: 4%;
+        margin-left: 30%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+      
+    }
+    .redessociales img{
+        width: 40%;
+        padding-right: 100px;
+    }
+    .icono{
+        display:none;
+        color: rgb(148, 59, 207);
+        padding-top: 10%;
+        position:none;
+    }
+}
+
+@media(max-width: 480px){
+    .contenedora{
+        width: 100%;
+        margin: 0%;
+        background-color:  rgb(110, 110, 110);
+        border:rgb(63, 63, 63) 5px solid;
+        color: white;
+        box-sizing: border-box;
+    }
+    .body{
+        background-image: none;
+    }
+    .fotoppal{
+        width: 100%;
+        margin: 0%;
+       
+    }
+    .fotoppal img{
+        width: 100%;
+    }
+    .titulo{
+        margin: 3%;
+    }
+    .titulo h2{
+        font-size: 30px;
+      
+    }
+    .titulo h3{
+        font-size: 20px;
+        margin-left: 60%;
+
+    }
+    .tituloimg h1{
+        font-size: 55px;
+        margin-left: 8%;
+      
+    }
+    .info{
+        display: block;
+        margin-left: 30%;
+        margin-top: 2%;
+        
+    }
+    .info p{
+        font-size: 20px;
+      
+    }
+    .fecha{
+        margin-left: 3%;
+    }
+    .horario{
+        margin-left: 13%;
+    }
+    .lugar{
+        margin-left: 11%;
+    }
+    .formulario{
+        width: 89%;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+   
+    .fotocirculo{
+        width: 80%;
+       
+    }
+    .fotocirculo img{
+        margin-bottom: 10%;
+        margin-left: 12%;
+    }
+
+    .formyfoto{
+        display: block;
+    }
+    .redessociales{
+        display: flex;
+        width: 2%;
+        margin-left: 15%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+      
+    }
+    .redessociales img{
+        width: 30%;
+        padding-right: 100px;
+    }
+        
+        
+  
+}

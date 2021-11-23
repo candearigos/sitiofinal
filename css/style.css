@@ -1,0 +1,208 @@
+nav a{
+    background-color: (156, 106, 202);
+    border-radius: 3%;  
+    color:#9E9D9D;
+    text-decoration: none;
+    padding: 3%;
+    
+}
+
+header nav a:hover{
+	color: white;
+    background-color:  rgb(148, 59, 207);
+    transform:scale(1.2);
+}
+.titulocita h2{
+    color: rgb(156, 106, 202);
+    font-size: 25px;
+}
+.gifstitulo h2{
+    background-color:  rgb(156, 106, 202);
+    color: white; 
+    padding: 1%;
+}
+.gifstitulo h1{
+    font-family: 'Permanent Marker', cursive;
+    color:  rgb(156, 106, 202);
+    font-size: 50px;
+}
+.gifstitulo h1 span{
+    position: relative;
+}
+.gifstitulo h1 span::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    background:rgb(195, 219, 241);
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid  rgb(156, 106, 202);
+    animation: escribiendo 3s steps(8) infinite;
+}
+@keyframes escribiendo{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+.cande{
+    background-color: rgb(156, 106, 202);
+    
+}
+.navbar-header{
+    font-family: 'Shadows Into Light', cursive;
+}
+.navbar-header:hover{
+    color: white;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(195, 219, 241);
+    overflow-x: hidden;
+}
+
+.header{
+    height: 100%;
+}
+.navbar{
+    box-shadow: 0 5px 10px #efefef;
+}
+.navbar-brand{
+     font-size: 20px;
+     padding: 2px 10px;
+     text-decoration: none;
+     color:rgb(142, 40, 201);
+}
+
+.carousel-item img{
+    width: 60%;
+}
+ .redes i{
+       font-size: 30px;
+       color: rgb(72, 130, 196);
+   }
+.redes i:hover{
+    color: rgb(142, 40, 201);
+    transform: translateY(-10%);
+    transition-duration: 0.5s;
+}
+.redes a{
+    margin-left: 2%
+}
+.titulocita{
+    background-color: rgb(72, 130, 196);
+}
+/* gifs */
+.gifs:hover{
+    transform:scale(1.1);
+transition-duration: 1s;
+}
+/* 100 Args */
+.contenedoraargs{
+    background-color:rgb(115, 149, 212) ;
+}
+.footercien{
+    margin-top: 15%;
+}
+.cien img{
+width: 10%;
+position: absolute;
+animation-name: cien;
+animation-duration: 2;
+
+}
+.uno{
+    position: absolute;
+    left:14%;
+    top: 13.5%;
+}
+.dos{
+    left: 22%
+}
+.tres{
+    left: 32%;
+}
+@keyframes cien{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left:14%; 
+    }
+}
+.dicen{
+    width: 50%;
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    animation-name: dicen;
+    animation-duration: 3s;
+}
+@keyframes dicen{
+    0%{
+        left: 102%;
+    }
+    100%{
+        left: 45%;
+    }
+}
+.argentinos{
+    top: 8%;
+    width: 50%;
+    position: absolute;
+    left: 41%;
+    animation-name: argentino;
+    animation-duration: 3s;
+}
+@keyframes argentino{
+    0%{
+        top: 20%;
+        width: 0%;
+        opacity: 0%;
+    }
+    100%{
+        top: 8%;
+        width: 50%;
+        opacity: 100%;
+    }
+}
+.participar{
+    position: absolute;
+    top: 50%;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Shadows Into Light', cursive;
+}
+.participar h2, .participar h3{
+    color: rgb(72, 130, 196);
+}
+.participar a{
+    background-color: rgb(156, 106, 202);
+    color: white;
+    border-radius: 5px;
+    padding: 0.01%;
+    text-decoration: none;
+}
+.participar a:hover{
+    background-color:  rgb(72, 130, 196);
+    color: white;
+}
+.videosyt{
+    margin-top: 30%;
+}
+/* noticias */
+.vernota{
+    background-color: rgb(156, 106, 202) ;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+}
+.titulonoticias{
+    color: rgb(156, 106, 202);
+    font-family: 'Shippori Antique', sans-serif;
+}
+.dariobarassi{
+    font-family: 'Shadows Into Light', cursive; 
+    font-size: 25px;
+}
