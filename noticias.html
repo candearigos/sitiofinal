@@ -15,34 +15,39 @@
 </head>
 <body class="body">
   <header class=" header">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid cande p-3">
-            <div class="navbar-header">
-                <a class="navbar-brand text-white" href="index.html">DARIO BARASSI</a>
-            </div>
-            <div class="pull-right">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button> 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto navbar-right">
-                  <li class="nav-item"><a class="nav-link text-white" href="meetgreet.html">Meet and Greet</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="curriculum.html">Curriculum</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="100args.html">100 Args dicen</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="noticias.html">Noticias</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
-                </ul>
-              </div>
+    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+      <div class="container-fluid cande">
+        <div class="navbar-header logobarassi">
+          <a class="navbar-brand text-white" href="index.html"><h1>DARIO BARASSI</h1></a>
+      </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header navbar-header">
+            <h5 class="offcanvas-title " id="offcanvasNavbarLabel">DARIO BARASSI</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body canvas">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 seccionesbarassi">
+              <li class="nav-item"><a class="nav-link text-white" href="meetgreet.html">Meet and Greet</a> </li>
+              <li class="nav-item"><a class="nav-link text-white" href="curriculum.html">Curriculum</a> </li>
+              <li class="nav-item"><a class="nav-link text-white" href="100args.html">100 Args dicen</a></li>
+              <li class="nav-item"> <a class="nav-link text-white" href="noticias.html">Noticias</a></li>
+              <li class="nav-item"><a class="nav-link  text-white" href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 <section class="container-fluid titulonoticias">
   <h2 class="text-center mt-3 mb-3">¡Enterate de las mejores noticias!</h2>
 </section>
 <section class="noticias container">
     <div class="row">
-<div class="col-4 mb-3">
-  <div class="card" style="width: 18rem;">
+<div class="col-lg-4  col-md-6 col-sm-12 mb-3">
+  <div class="card" style="">
     <span class="border border-5">
     <img src="imgs/entrevista4.jpg" class="card-img-top" alt="...">
     <div class="card-body">
@@ -53,8 +58,8 @@
   </div>
 </div>
 </span>
-<div class="col-4">
-  <div class="card" style="width: 18rem;">
+<div class="col-lg-4  col-md-6 col-sm-12 mb-3">
+  <div class="card">
     <span class="border border-5">
     <img src="imgs/entrevista5.jpg" class="card-img-top" alt="...">
     <div class="card-body">
@@ -65,8 +70,8 @@
   </div>
 </div>
 </span>
-<div class="col-4">
-  <div class="card" style="width: 18rem;">
+<div class="col-lg-4  col-md-6 col-sm-12 mb-3">
+  <div class="card">
     <span class="border border-5">
     <img src="imgs/entrevista6.jpg" class="card-img-top" alt="...">
     <div class="card-body">
@@ -77,38 +82,38 @@
   </div>
 </div>
 </span>
-<div class="col-4 mb-3">
-  <div class="card" style="width: 18rem;">
+<div class="col-lg-4  col-md-6 col-sm-12 mb-3">
+  <div class="card">
       <span class="border border-5">
       <img src="imgs/entrevista1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">TN ENTREVISTAS</h5>
         <p class="card-text">Darío Barassi vivió un incómodo momento en una resonancia magnética</p>
-        <a href="https://tn.com.ar/show/novedades/2021/05/08/dario-barassi-vivio-un-incomodo-momento-en-una-resonancia-magnetica/" class="vernota">Ver nota</a>
+        <a href="https://tn.com.ar/show/novedades/2021/05/08/dario-barassi-vivio-un-incomodo-momento-en-una-resonancia-magnetica/" class="vernota mb-3">Ver nota</a>
       </div>
   </div>
     </div>
   </span>
-    <div class="col-4">
-    <div class="card" style="width: 18rem;">
+    <div class="col-lg-4  col-md-6 col-sm-12 mb-3">
+    <div class="card">
       <span class="border border-5">
       <img src="imgs/entrevista2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">TN ENTREVISTAS</h5>
         <p class="card-text">Darío Barassi: “En redes sociales no planto bandera y soy tibio, pero me la banco”</p>
-        <a href="https://tn.com.ar/show/novedades/2021/05/08/dario-barassi-vivio-un-incomodo-momento-en-una-resonancia-magnetica/" class="vernota">Ver nota</a>
+        <a href="https://tn.com.ar/show/novedades/2021/05/08/dario-barassi-vivio-un-incomodo-momento-en-una-resonancia-magnetica/" class="vernota mb-3">Ver nota</a>
       </div>
   </div>
     </div>
   </span>
-    <div class="col-4">
-    <div class="card" style="width: 18rem;">
+    <div class="col-lg-4  col-md-6 col-sm-12 mb-3">
+    <div class="card">
       <span class="border border-5">
       <img src="imgs/entrevista3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">TN ENTREVISTAS</h5>
         <p class="card-text">Darío Barassi suspendió las grabaciones de “100 argentinos dicen”: cuál fue el motivo</p>
-        <a href="https://tn.com.ar/show/famosos/2021/07/27/dario-barassi-suspendio-las-grabaciones-de-100-argentinos-dicen-cual-fue-el-motivo/"  class="vernota">Ver nota</a>
+        <a href="https://tn.com.ar/show/famosos/2021/07/27/dario-barassi-suspendio-las-grabaciones-de-100-argentinos-dicen-cual-fue-el-motivo/"  class="vernota mb-3">Ver nota</a>
       </div>
     </div>
   </div>

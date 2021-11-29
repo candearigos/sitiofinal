@@ -7,11 +7,21 @@ nav a{
     
 }
 
-header nav a:hover{
-	color: white;
-    background-color:  rgb(148, 59, 207);
-    transform:scale(1.2);
+
+.logobarassi h1{
+    font-size: 30px;
+    margin-top: -2%;
+    margin-bottom: -2%;
 }
+.seccionesbarassi a{
+    color: white;
+}
+.logobarassi h1:hover, .seccionesbarassi a:hover{
+    background-color:  rgb(148, 59, 207);
+    transform: scale(1.1);
+    border-radius: 3px;
+}
+
 .titulocita h2{
     color: rgb(156, 106, 202);
     font-size: 25px;
@@ -74,7 +84,9 @@ header nav a:hover{
      text-decoration: none;
      color:rgb(142, 40, 201);
 }
-
+.sliderbarassi, .titulonoticias, .contact,.contenedoraargs, .contenedorabarassi, .contenedora{
+    margin-top: 10%;
+}
 .carousel-item img{
     width: 60%;
 }
@@ -92,6 +104,9 @@ header nav a:hover{
 }
 .titulocita{
     background-color: rgb(72, 130, 196);
+}
+.canvas{
+    background-color:rgb(156, 106, 202) ;
 }
 /* gifs */
 .gifs:hover{
@@ -205,4 +220,41 @@ animation-duration: 2;
 .dariobarassi{
     font-family: 'Shadows Into Light', cursive; 
     font-size: 25px;
+}
+/* contactanos */
+
+.bodycontacto{
+    background-image: url("globitos.png");
+    background-size: 100%;
+    background-position-y: -10%;
+    background-color: rgb(195, 219, 241);
+    animation: globitos linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    overflow-x: hidden;
+}
+@keyframes globitos{
+    0%{
+        background-position-y: -100% ;
+    }
+    100%{
+        background-position-y: 500%;
+    }
+}
+.head{
+background-color: rgb(72, 130, 196); 
+border-radius: 5px;
+margin-top: 2%;
+}
+
+.borde input{
+    border-color:blueviolet;
+    border-radius: 5px;
+    border-style: solid;
+    width: 60%;
+    padding: 6px;
+
+}
+.borde input:hover{
+    border-color: rgb(72, 130, 196); 
 }

@@ -9,6 +9,7 @@
 .contenedora{
     width: 80%;
     margin: 0 auto;
+    margin-top: 9%;
     background-color:  rgb(110, 110, 110);
     border:rgb(63, 63, 63) 5px solid;
     color: white;

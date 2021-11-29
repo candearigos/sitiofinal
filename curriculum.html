@@ -18,28 +18,32 @@
 </head>
 <body class="body">
     <header class=" header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid cande p-3">
-                <div class="navbar-header">
-                    <a class="navbar-brand text-white" href="index.html">DARIO BARASSI</a>
-                </div>
-                <div class="pull-right">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button> 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto navbar-right">
-                      <li class="nav-item"><a class="nav-link text-white" href="meetgreet.html">Meet and Greet</a></li>
-                      <li class="nav-item"><a class="nav-link text-white" href="curriculum.html">Curriculum</a></li>
-                      <li class="nav-item"><a class="nav-link text-white" href="100args.html">100 Args dicen</a></li>
-                      <li class="nav-item"><a class="nav-link text-white" href="noticias.html">Noticias</a></li>
-                      <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
-                    </ul>
-                  </div>
+        <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+          <div class="container-fluid cande">
+            <div class="navbar-header logobarassi">
+              <a class="navbar-brand text-white" href="index.html"><h1>DARIO BARASSI</h1></a>
+          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header navbar-header">
+                <h5 class="offcanvas-title " id="offcanvasNavbarLabel">DARIO BARASSI</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body canvas">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 seccionesbarassi">
+                  <li class="nav-item"><a class="nav-link text-white" href="meetgreet.html">Meet and Greet</a> </li>
+                  <li class="nav-item"><a class="nav-link text-white" href="curriculum.html">Curriculum</a> </li>
+                  <li class="nav-item"><a class="nav-link text-white" href="100args.html">100 Args dicen</a></li>
+                  <li class="nav-item"> <a class="nav-link text-white" href="noticias.html">Noticias</a></li>
+                  <li class="nav-item"><a class="nav-link  text-white" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </nav>
-    </header>
-
+      </header>
     <div class="contenedorabarassi">
         <section class="section0">
             <a href="#" class="icono" onclick="myFunction()"><i class="fa fa-bars"></i></a>  
