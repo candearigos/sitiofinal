@@ -259,7 +259,7 @@ margin-top: 2%;
     border-color: rgb(72, 130, 196); 
 }
 @media(max-width: 480px){
-  .contenedorabarassi, .titulonoticias, .contact{
+  .contenedorabarassi, .titulonoticias, .contact, .sliderbarassi{
       margin-top: 30%;
   }
 
