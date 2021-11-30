@@ -130,7 +130,7 @@ animation-duration: 2;
 .uno{
     position: absolute;
     left:14%;
-    top: 13.5%;
+    top: 20%;
 }
 .dos{
     left: 22%
@@ -149,7 +149,7 @@ animation-duration: 2;
 .dicen{
     width: 50%;
     position: absolute;
-    top: 18%;
+    top: 22%;
     left: 45%;
     animation-name: dicen;
     animation-duration: 3s;
@@ -163,7 +163,7 @@ animation-duration: 2;
     }
 }
 .argentinos{
-    top: 8%;
+    top: 12%;
     width: 50%;
     position: absolute;
     left: 41%;
@@ -177,7 +177,7 @@ animation-duration: 2;
         opacity: 0%;
     }
     100%{
-        top: 8%;
+        top: 12%;
         width: 50%;
         opacity: 100%;
     }
@@ -257,4 +257,25 @@ margin-top: 2%;
 }
 .borde input:hover{
     border-color: rgb(72, 130, 196); 
+}
+@media(max-width: 480px){
+  .contenedorabarassi, .titulonoticias, .contact{
+      margin-top: 30%;
+  }
+
+/* contactanos */
+.bodycontacto{
+    animation: globitos linear;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    overflow-x: hidden;
+}
+@keyframes globitos{
+    0%{
+        background-position-y: -100% ;
+    }
+    100%{
+        background-position-y: 500%;
+    }
+}
 }
