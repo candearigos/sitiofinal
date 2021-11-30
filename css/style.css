@@ -1,3 +1,8 @@
+.body{
+    margin: 0%;
+    padding: 0;
+    overflow-x: hidden;
+}
 nav a{
     background-color: (156, 106, 202);
     border-radius: 3%;  
@@ -61,6 +66,10 @@ nav a{
 }
 .navbar-header{
     font-family: 'Shadows Into Light', cursive;
+}
+.navbar-header h2{
+    font-family: 'Shadows Into Light', cursive;
+    color:rgb(72, 130, 196);
 }
 .navbar-header:hover{
     color: white;
@@ -149,7 +158,7 @@ animation-duration: 2;
 .dicen{
     width: 50%;
     position: absolute;
-    top: 22%;
+    top: 23%;
     left: 45%;
     animation-name: dicen;
     animation-duration: 3s;
@@ -202,6 +211,28 @@ animation-duration: 2;
     background-color:  rgb(72, 130, 196);
     color: white;
 }
+.imagenlogotrece img{
+    position: absolute;
+    width: 10%;
+    top: 58%;
+    left: 0%;
+    animation: logotrece;
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes logotrece{
+    0%{
+       left: 0;
+    }
+    50%{
+       left: 25%;
+       transform: rotate(360deg); 
+    }
+    90%{
+        left:0;
+    }
+}
 .videosyt{
     margin-top: 35%;
 }
@@ -229,13 +260,14 @@ animation-duration: 2;
     background-position-y: -10%;
     background-color: rgb(195, 219, 241);
     animation: globitos linear;
-    animation-duration: 15s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
     overflow-x: hidden;
 }
 @keyframes globitos{
     0%{
         background-position-y: -100% ;
+        
     }
     100%{
         background-position-y: 500%;
