@@ -12,7 +12,9 @@ nav a{
     
 }
 
-
+#iconito{
+    animation: none;
+}
 .logobarassi h1{
     font-size: 30px;
     margin-top: -2%;
@@ -31,20 +33,21 @@ nav a{
     color: rgb(156, 106, 202);
     font-size: 25px;
 }
+
 .gifstitulo h2{
     background-color:  rgb(156, 106, 202);
     color: white; 
     padding: 1%;
 }
-.gifstitulo h1{
+.gifs h3{
     font-family: 'Permanent Marker', cursive;
     color:  rgb(156, 106, 202);
     font-size: 50px;
 }
-.gifstitulo h1 span{
+.gifs h3 span{
     position: relative;
 }
-.gifstitulo h1 span::after{
+.gifs h3 span::after{
     content: "";
     position: absolute;
     left: 0%;
@@ -63,6 +66,9 @@ nav a{
 .cande{
     background-color: rgb(156, 106, 202);
     
+}
+#offcanvasNavbar{
+    width: 60%;
 }
 .navbar-header{
     font-family: 'Shadows Into Light', cursive;
@@ -121,6 +127,16 @@ nav a{
 .gifs:hover{
     transform:scale(1.1);
 transition-duration: 1s;
+}
+.footersitio a{
+       background-color: rgb(156, 106, 202) ;
+       color: white;
+       border-radius: 5px;
+}
+.footersitio a:hover{
+    background-color: white;
+       color: rgb(156, 106, 202) ;
+       
 }
 /* 100 Args */
 .contenedoraargs{
