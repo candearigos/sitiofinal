@@ -17,11 +17,14 @@ nav a{
 }
 .logobarassi h1{
     font-size: 30px;
-    margin-top: -2%;
-    margin-bottom: -2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    transition: 0.5s;
 }
-.seccionesbarassi a{
+.seccionesbarassi a, .logobarassi a{
     color: white;
+    display: block;
+    transition: 0.5s;
 }
 .logobarassi h1:hover, .seccionesbarassi a:hover{
     background-color:  rgb(148, 59, 207);
@@ -99,7 +102,7 @@ nav a{
      text-decoration: none;
      color:rgb(142, 40, 201);
 }
-.sliderbarassi, .titulonoticias, .contact,.contenedoraargs, .contenedorabarassi, .contenedora{
+.sliderbarassi, .titulonoticias, .contact,.contenedoraargs, .contenedorabarassi, .contenedorameet{
     margin-top: 10%;
 }
 .carousel-item img{
@@ -128,12 +131,12 @@ nav a{
     transform:scale(1.1);
 transition-duration: 1s;
 }
-.footersitio a{
+.footersitio a, .footercien a{
        background-color: rgb(156, 106, 202) ;
        color: white;
        border-radius: 5px;
 }
-.footersitio a:hover{
+.footersitio a:hover, .footercien a:hover{
     background-color: white;
        color: rgb(156, 106, 202) ;
        
@@ -141,6 +144,7 @@ transition-duration: 1s;
 /* 100 Args */
 .contenedoraargs{
     background-color:rgb(115, 149, 212) ;
+    overflow-x: hidden;
 }
 .footercien{
     margin-top: 5%;
@@ -271,22 +275,22 @@ animation-duration: 2;
 /* contactanos */
 
 .bodycontacto{
-    background-image: url("globitos.png");
+    background-image: url("globitos2.png");
     background-size: 100%;
     background-position-y: -10%;
     background-color: rgb(195, 219, 241);
     animation: globitos linear;
-    animation-duration: 12s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     overflow-x: hidden;
 }
 @keyframes globitos{
     0%{
-        background-position-y: -100% ;
+        background-position-y: 100% ;
         
     }
     100%{
-        background-position-y: 500%;
+        background-position-y: -500%;
     }
 }
 .head{
@@ -307,14 +311,14 @@ margin-top: 2%;
     border-color: rgb(72, 130, 196); 
 }
 @media(max-width: 480px){
-  .contenedorabarassi, .titulonoticias, .contact, .sliderbarassi{
+  .contenedorabarassi, .titulonoticias, .contact, .sliderbarassi, .contenedorameet{
       margin-top: 30%;
   }
 
 /* contactanos */
 .bodycontacto{
     animation: globitos linear;
-    animation-duration: 40s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     overflow-x: hidden;
 }
@@ -325,5 +329,101 @@ margin-top: 2%;
     100%{
         background-position-y: 500%;
     }
+}
+
+
+/* 100 args */
+.footercien{
+    margin-top: 5%;
+}
+.cien img{
+width: 10%;
+position: absolute;
+animation-name: cien;
+animation-duration: 2;
+
+}
+.uno{
+    position: absolute;
+    left:9%;
+    top: 20%;
+}
+.dos{
+    left: 16%;
+    top: 20.5%;
+}
+.tres{
+    left: 26%;
+    top: 20.5%;
+}
+@keyframes cien{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left:14%; 
+    }
+}
+.dicen{
+    width: 60%;
+    position: absolute;
+    top: 21%;
+    left: 45%;
+    animation-name: dicen;
+    animation-duration: 3s;
+}
+@keyframes dicen{
+    0%{
+        left: 102%;
+    }
+    100%{
+        left: 45%;
+    }
+}
+.argentinos{
+    top: 15%;
+    width: 70%;
+    position: absolute;
+    left: 35%;
+    animation-name: argentino;
+    animation-duration: 3s;
+}
+@keyframes argentino{
+    0%{
+        top: 20%;
+        width: 0%;
+        opacity: 0%;
+    }
+    100%{
+        top: 15%;
+        width: 70%;
+        opacity: 100%;
+    }
+}
+.participar{
+    position: absolute;
+    top: 28%;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Shadows Into Light', cursive;
+}
+.participar h2, .participar h3{
+    color: rgb(72, 130, 196);
+}
+.participar a{
+    background-color: rgb(156, 106, 202);
+    color: white;
+    border-radius: 5px;
+    padding: 0.01%;
+    text-decoration: none;
+}
+.participar a:hover{
+    background-color:  rgb(72, 130, 196);
+    color: white;
+}
+.imagenlogotrece img{
+display: none;
+}
+.videosyt{
+    margin-top: 85%;
 }
 }
