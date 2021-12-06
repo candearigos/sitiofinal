@@ -6,7 +6,7 @@
   background-size: cover;
 
 }
-.contenedora{
+.contenedorameet{
     width: 80%;
     margin: 0 auto;
     margin-top: 9%;
@@ -207,13 +207,17 @@
 }
 
 @media(max-width: 480px){
-    .contenedora{
+    .headermeetgreet{
+        margin-top: 30%;
+    }
+    .contenedorameet{
         width: 100%;
         margin: 0%;
         background-color:  rgb(110, 110, 110);
         border:rgb(63, 63, 63) 5px solid;
         color: white;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
     .body{
         background-image: none;
@@ -265,7 +269,7 @@
     .formulario{
         width: 89%;
         margin-top: 0%;
-        margin-left: 2%;
+        margin-left: 5%;
     }
    
     .fotocirculo{
