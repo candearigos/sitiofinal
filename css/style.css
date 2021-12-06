@@ -260,6 +260,11 @@ animation-duration: 2;
     border-radius: 5px;
     text-decoration: none;
     padding: 10px;
+    transition: 0.8s;
+}
+.vernota:hover{
+    background-color: steelblue;
+    color: white;
 }
 .titulonoticias{
     color: rgb(156, 106, 202);
@@ -307,6 +312,83 @@ margin-top: 2%;
 .borde input:hover{
     border-color: rgb(72, 130, 196); 
 }
+.envi input{
+    background-color: rgb(156, 106, 202) ;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    transition: 0.8s;
+}
+.envi input:hover{
+    background-color:rgb(136, 170, 241)  ;
+}
+/* dispositivo mediano */
+@media(min-width: 580px) and (max-width: 989px){
+    .titulonoticias{
+        margin-top: 15%;
+    }
+    /* 100 args */
+.contenedoraargs{
+    overflow-x: hidden;
+}
+.footercien{
+    margin-top: 5%;
+    transition-duration: 0.8s;
+}
+.cien img{
+width: 15%;
+position: absolute;
+animation-name: cien;
+animation-duration: 2;
+
+}
+.uno{
+    position: absolute;
+    left:1.5%;
+    top: 13%;
+}
+.dos{
+    left: 10.5%;
+    top: 13.8%;
+}
+.tres{
+    left: 24%;
+    top: 13.8%;
+}
+.dicen{
+    width: 60%;
+    position: absolute;
+    top: 16%;
+    left: 45%;
+}
+.participar{
+    position: absolute;
+    top: 28%;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Shadows Into Light', cursive;
+}
+.participar h2, .participar h3{
+    color: rgb(72, 130, 196);
+}
+.participar a{
+    background-color: rgb(156, 106, 202);
+    color: white;
+    border-radius: 5px;
+    padding: 0.01%;
+    text-decoration: none;
+}
+.participar a:hover{
+    background-color:  rgb(72, 130, 196);
+    color: white;
+}
+.imagenlogotrece img{
+display: none;
+}
+.videosyt{
+    margin-top: 50%;
+}
+}
+/* dispositivo pequeño */
 @media(max-width: 480px){
   .contenedorabarassi, .titulonoticias, .contact, .sliderbarassi, .contenedorameet{
       margin-top: 30%;
@@ -335,7 +417,7 @@ margin-top: 2%;
     transition-duration: 0.8s;
 }
 .cien img{
-width: 10%;
+width: 15%;
 position: absolute;
 animation-name: cien;
 animation-duration: 2;
@@ -343,16 +425,16 @@ animation-duration: 2;
 }
 .uno{
     position: absolute;
-    left:9%;
-    top: 20%;
+    left:1.5%;
+    top: 17%;
 }
 .dos{
-    left: 16%;
-    top: 20.5%;
+    left: 10.5%;
+    top: 17.8%;
 }
 .tres{
-    left: 26%;
-    top: 20.5%;
+    left: 24%;
+    top: 17.8%;
 }
 @keyframes cien{
     0%{
