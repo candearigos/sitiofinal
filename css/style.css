@@ -223,6 +223,7 @@ animation-duration: 2;
     border-radius: 5px;
     padding: 0.01%;
     text-decoration: none;
+    transition: 0.8s;
 }
 .participar a:hover{
     background-color:  rgb(72, 130, 196);
